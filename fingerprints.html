@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+
+<html>
+
+  <title>Chris Carter</title>
+
+  <meta charset="UTF-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <style>
+
+    body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+
+    .w3-row-padding img {margin-bottom: 12px}
+
+    /* Set the width of the sidebar to 120px */
+
+    .w3-sidebar {width: 120px;background: #222;}
+
+    /* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+
+    #main {margin-left: 120px}
+
+    /* Remove margins from "page content" on small screens */
+
+    @media only screen and (max-width: 600px) {#main {margin-left: 0}}
+
+  </style>
+
+  <body class="w3-black">
+
+
+
+    <!-- Icon Bar (Sidebar) -->
+
+    <nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
+
+
+  <!--    <a href="#" class="w3-bar-item w3-button w3-padding-large w3-black">
+
+	<!--<i class="fa fa-home w3-xxlarge"></i>  -->
+
+	<a href="index.html">HOME</a>
+
+  </a>
+  <br>
+  <br>
+
+<!--      <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+
+	<!--<i class="fa fa-user w3-xxlarge"></i> -->
+
+	<a href="index.html">ABOUT</a>
+
+  </a>
+  <br>
+  <br>
+
+   <!--   <a href="#fingerprints" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+	<!-- <i class="fa fa-user w3-xxlarge"></i>  -->
+	<a href="fingerprints.html">FINGERPRINTS</a>
+
+
+    </nav>
+
+
+	<!-- FingerPrints -->
+	<div class="w3-content w3-justify w3-text-grey w3-padding-64" id="fingerprints">
+
+	  <h2 class="w3-text-light-grey">FingerPrints</h2>
+
+	  <hr style="width:200px" class="w3-opacity">
+
+	  <p style="font-family:Times New Roman;">
+
+
+
+	    When using the internet, users expect a secure connection to whatever service they are using. These secured connections were not present in the early days of the internet, but for modern day internet users, the HTTPS web connection is common. When introduced, HTTPS had two primary purposes, one being the secure, authenticated, and encrypted connection between the user and the web server. The other purpose was to prevent eavesdropping by third parties, however private institutions have gotten around this aspect of HTTPS connections.
+	  </p>
+	  <br>
+	  <p style="font-family:Times New Roman;">
+	    HTTPS proxy appliances are devices that allow private institutions to circumvent internet privacy and security. They do this by adding a pseudo certificate authority to their users' browsers. This circumvents the certificate authority system and allows them to monitor every internet action on their sites. All it takes is for a company to install a SSL proxy to add the certificate. Eavesdropping on private connections is also known as a MITM attack, or man in the middle attack. MITMs is when a third party secretly relays communications between two parties that believe they are directly communicating with each other. These attacks are usually prevented by certificate authentication. MITM attacks do pose a risk however. Some companies have been seen using MITM attacks, such as NOKIA. In 2013 NOKIA was found using proxy servers to decrypt HTTPS traffic. The company had to release a statement stating the content was not stored permanently.
+	  </p>
+	  <br>
+	  <p style="font-family:Times New Roman;">
+	    Unfortunately, these SSL interceptions cannot be entirely prevented, but they can be reliably detected, as completely spoofing a certificate is impossible. This is thanks to public and private keys.SSL security provides the public cryptographic key but not the private key, which is not shown to the public. The certificate's public key is used to encrypt data that can only be decrypted by its matching private key. SSL proxies are forced to use different public keys, as they do not have the matching private keys.Certificate Authorities are trusted authorities that issue SSL certificates.The same certificates used to link entities with public keys.The CA is responsible for verifying the trustworthiness of a website, as well as its authentication.
+	  </p>
+	  <br>
+	  <p style="font-family:Times New Roman;">
+	    Those inspecting SSL certificates can create a cryptographic hash of the certificate. A hash is a complex algorithm that detects changes in a certificate, or “fingerprint” them. If even the smallest change is detected, the algorithm completely changes it into another completely different fingerprint. SHA1 or secure hashing algorithm 1 is used to today to detect changes in security certificates
+	  </p>
+	  <br>
+	  <p style="font-family:Times New Roman;">
+	    There are things to consider when testing a certificate's fingerprint. Larger companies may use multiple certificates on their websites. This leads to people getting different fingerprints and assuming they are being intercepted.
+
+	    In some cases, it is required for communications to be intercepted or monitored. Federally funded schools are required to have a plan for monitoring students' lives. This is to make schools safer at the cost of privacy.
+	  </p>
+	  <br>
+
+	  <p style="font-family:Times New Roman;">
+	    References
+
+	    Melanie Ruiz(Nov 18 2020) Should Schools Monitor Students Online? https://www.kqed.org/education/534661/should-schools-monitor-students-online#:~:text=In%20the%20United%20States%2C%20federally,Some%20just%20block%20inappropriate%20content.
+	  </p>
+	  <br>
+	  <p style="font-family:Times New Roman;">
+
+	    Rahul Awati, Peter Loshin , definition certificate authority (CA) https://www.techtarget.com/searchsecurity/definition/certificate-authority
+
+	  </p>
+
+
+
+
+
+
+
+
+
+
+	  <!-- End footer -->
+
+</footer>
+
+
+
+<!-- END PAGE CONTENT -->
+
+</div>
+
+
+
+</body>
+
+</html>
